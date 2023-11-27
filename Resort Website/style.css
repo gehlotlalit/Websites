@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)),url(resort.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    height: 17vh;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content h2{
+    color: white;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.logo{
+    padding-left: 65px;
+}
+.content ul li{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+    padding: 5px 8px;
+    margin:  0 10px;
+    border-bottom: 3px solid transparent;
+}
+.content ul li a{   
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+.content ul li a:hover{
+    border-bottom: 3px solid #e3b104;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main-content{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.main-content h1{
+    color: white;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.main-content p{
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+button{
+    position: relative;
+    width: 200px;
+    padding: 14px 20px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #e3b104;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+}
+span{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #e3b104;
+    border: 2px solid #e3b104;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.6s;
+    border: none;
+}
+button:hover span{
+    width: 100%; 
+}
