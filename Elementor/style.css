@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'josefin sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Img/Background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo h2{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 25px;
+}
+.menu ul li a{
+    color: white;
+    font-size: 16px;
+}
+.menu ul li a:hover{
+    opacity: 0.7;
+    transition: .4s;
+}
+.btn a{
+    background-color: white;
+    padding: 12px 30px;
+    border: 2px solid transparent;
+    color: #000;
+    border-radius: 30px;
+
+}
+.btn a:hover{
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    transition: .5s;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+p{
+    margin: 10px 0px 30px;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+.btn2 button{
+    margin-right: 10px;
+    outline: none;
+    padding: 12px 40px;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: #000;
+    background-color: white;
+    letter-spacing: 1px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn2 button:hover{
+    background-color: #7f48b0;
+    border: 2px solid #7f48b0;
+    color: white;
+    transition: .5s;
+}
+.btn2 .ab-btn{
+    background-color: #7f48b0;
+    border: 2px solid #7f48b0;
+    color: white;
+}
