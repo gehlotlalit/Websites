@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(5,9,40,0.8)),url(Img/Background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 6%;
+}
+nav .logo{
+    color: white;
+    font-size: 32px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+span{
+    color: #fa9954;
+}
+.menu{
+    text-align: right;
+    flex: 1;
+}
+nav .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    position: relative;
+    padding: 10px 15px;
+}
+nav .menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+nav .menu ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #fa9954;
+    display: block;
+    margin: auto;
+    transition: .3s;
+}
+nav .menu ul li:hover::after{
+    width: 100%;
+}
+.heading{
+    position: absolute;
+    width: 90%;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.heading h1{
+    font-size: 70px;
+    font-weight: 900;
+}
+.heading p{
+    color: white;
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 10px 0 35px;
+}
+.btn{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background: linear-gradient(to right, #fa9954,#fc4735);
+    padding: 12px 32px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background: linear-gradient(to left, #fa9954, #fc4735);
+    transition: .3s;
+}
