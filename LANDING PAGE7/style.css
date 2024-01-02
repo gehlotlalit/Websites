@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Img/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    height: 18vh;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.content h2{
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #2b2b2b;
+}
+.content ul li{
+    font-size: 20px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0px 20px;
+}
+.content ul li a{
+    text-decoration: none;
+    color: #2b2b2b;
+    transition: .3s;
+}
+.content ul li a:hover{
+    color: #6a0ec2;
+}
+.main{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1{
+    font-size: 65px;
+    margin: 20px 0px 20px;
+    color: #2b2b2b;
+}
+h3{
+    color: #2b2b2b;
+    font-size: 60px;
+    font-weight: 400;
+}
+h4{
+    color: #2b2b2b;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+button{
+    background-color: #6a0ec2;
+    padding: 13px 30px;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    transition: .4s;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid #6a0ec2;
+    cursor: pointer;
+}
+.sidebar{
+    position: absolute;
+    height: 340px;
+    width: 60px;
+    background-color: white;
+    border-radius: 10px;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    text-align: center;
+}
+.box{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px auto;
+}
+.text{
+    background-color: #6a0ec2;
+    height: 100%;
+    min-height: 0px;
+    margin-right: 5px;
+    line-height: 0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px 0 0 5px;
+    overflow: hidden;
+}
+.icon{
+    height: 100%;
+    min-width: 100%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.icon i{
+    color: #6a0ec2;
+    font-size: 18px;
+    line-height: 50px;
+}
+.box:hover .icon{
+    background-color: #6a0ec2;
+}
+.box:hover .icon i{
+    color: white;
+}
+.box:hover .text{
+    min-width: 120px;
+}
