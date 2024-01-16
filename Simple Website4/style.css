@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background: #100940;
+    position: relative;
+}
+nav{
+    height: 17vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo h2{
+    color: #49bce0;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 30px;
+}
+.menu ul li a{
+    color: #ccc;
+    text-transform: capitalize;
+}
+.menu ul li a:hover{
+    color: white;
+    transition: 0.5s;
+}
+.btn a{
+    border: 2px solid #49bce0;
+    padding: 8px 30px;
+    border-radius: 30px;
+    background-color: #49bce0;
+    color: #000;
+}
+.btn a:hover{
+    border: 2px solid #49bce0;
+    background-color: transparent;
+    color: #49bce0;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.main-content{
+    width: 1200px; 
+    max-width: 85%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text h1{
+    color: #f8c420;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.text p{
+    color: #ccc;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.img img{
+    width: 520px;
+    height: 500px;
+}
+.btn2 button{
+    padding: 8px 30px;
+    margin-right: 1opx;
+    outline: none;
+    border-radius: 30px;
+    background: transparent;
+    color: #49bce0;
+}
+.btn2 .ab-btn{
+    background: #49bce0;
+    color: #000;
+}
+.btn .ab-btn:hover{
+    background: transparent;
+    color: #49bce0;
+    transition: 0.4s;
+}
+.btn button:hover{
+    background: #49bce0;
+    color: #000;
+    transition: 0.4s;
+    cursor: pointer;
+}
