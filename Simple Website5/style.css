@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Img/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    display: flex;
+    padding: 45px 120px;
+}
+.logo h2{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+.menu{
+    flex: 2;
+}
+.menu ul{
+    margin-left: 250px;
+    display: inline;
+}
+.menu ul li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 30px;
+}
+.menu ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.menu ul li::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    margin: auto;
+    background-color: white;
+    transition: .4s;
+}
+.menu ul li:hover::after{
+    width: 100%;
+}
+.content{
+    margin: 100px 125px;
+}
+.btn{
+    background-color: white;
+    padding: 8px 30px;
+    border: 2px solid transparent;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: .3s;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+h1{
+    color: white;
+    font-size: 65px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+span{
+    color: #f2b742;
+}
+p{
+    color: #d1d3d5;
+    font-size: 15px;
+}
+.social{
+    position: absolute;
+    height: 100%;
+    right: 0;
+    top: 0;
+    background-color: #f2b742;
+}
+.search{
+    height: 65%;
+    width: 80px;
+}
+.search i{
+    margin: 50px 23px;
+    display: block;
+    color: #000;
+    font-size: 30px;
+}
+.icon {
+    position: absolute;
+    height: 35%;
+    width: 80px;
+    text-align: center;
+    padding-top: 30%;
+    bottom: 0;
+}
+.icon i{
+    display: inline-block;
+    margin: 15px 23px;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.icon i:hover{
+    transform: scale(1.4);
+}
